@@ -5,7 +5,7 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.phonegap.app5"
 version ="1.0.0">
 
-<name>app5- Advertencias del dispositivo </name>
+<name>app5 Advertencias del dispositivo </name>
 
 <description>
 Aplicacion que realiza la vibracion y beep del Dispositivo
@@ -16,9 +16,9 @@ maklein damian romero
 </author>
 
 <!--Personaliza la aplicacion y plataforma -->
-<!--preference name="orientation" value="default"/> -->
+<!-- <preference name="orientation" value="default"/> -->
 <preference name="orientation" value="portrait"/>
-<!-- preference name="orientation" value="landscape"/> -->
+<!-- <preference name="orientation" value="landscape"/> -->
 <preference name="target-device" value="universal"/>
 <preference name="fullscreen" value="true"/>
 <preference name="android-installLocation" value="auto"/>
@@ -30,8 +30,8 @@ maklein damian romero
 <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
 <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
 
-<!-- >pluging name="cordova-plugin-geolocation" source="npm"/>-->
-<!--Third part plugins-->
+<!-- <pluging name="cordova-plugin-geolocation" source="npm"/>-->
+<!-- Third part plugins-->
 
 <!--Colocar icono app-->
 
